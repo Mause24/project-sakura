@@ -1,0 +1,1 @@
+export const isEmpty=(obj)=>Object.entries(obj)[0]===undefined;

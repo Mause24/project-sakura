@@ -1,0 +1,48 @@
+.register{
+    height:92.7vh;
+    display: flex;
+    background: royalblue;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.register__container{
+    width: 30%;
+    height: 555px;
+    display: flex;
+    background: whitesmoke;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register__container h3{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 7px;
+    color: royalblue;
+
+}
+
+.register__aside{
+    width: 50%;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    background: whitesmoke;
+    padding: 20px;
+}
+.register__aside img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.input--register{
+    min-width: 50%;
+}

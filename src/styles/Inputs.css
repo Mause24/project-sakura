@@ -1,0 +1,63 @@
+.input--text {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+    outline: royalblue 1px solid;
+}
+
+.input--btn {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: royalblue;
+    border: 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+    transition: all ease 0.3s;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.input--btn:hover {
+    background-color: rgb(39, 80, 205);
+    transform: scale(1.02);
+}
+
+.input--select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 5px 0 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    outline: none;
+    transition: all ease 0.4s;
+}
+
+.input--select::-ms-expand {
+    display: none;
+}
+
+.select{
+    width: 100%;
+    display: flex;
+    position: relative;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+}
+.select:last-child{
+    position: absolute;
+    right: 10px;
+    color: royalblue;
+}

@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    position: sticky;
+    background-color: whitesmoke;
+    height: 7.3vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.header__logo{
+    display: flex;
+    width: 20%;
+    padding-left: 20px;
+}
+.header__logo h1{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: royalblue;
+    text-transform: uppercase;
+}
+
+#logo__img{
+    height: 70px;
+    width: 70px;
+    color: royalblue;
+}
+
+.header__separator{
+    width: 40%;
+}
+
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center
+}
+nav ul li{
+    background: rgb(33, 81, 226);
+    padding: 10px 40px;
+    border-radius: 60% 40% 62% 38% / 0% 100% 0% 100%;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.299);
+    font-size: larger;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    user-select: none;
+}
+nav ul li:hover{
+    border-bottom: 7px solid rgba(0, 0, 0, 0.299);
+    transform: scale(1.01);
+}
+nav ul li:active{
+    border-bottom: 0;
+    transform: scale(0.99);
+}

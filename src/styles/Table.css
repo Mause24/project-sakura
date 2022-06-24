@@ -1,0 +1,43 @@
+.table {
+    width: inherit;
+    border-collapse: collapse;
+}
+
+.table thead {
+    outline: 4px solid whitesmoke;
+    background-color: royalblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.table thead th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.table tbody td {
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.table tbody tr {
+    transition: all ease 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.table tbody tr:nth-child(even) {
+    background: rgb(208, 208, 208);
+}
+
+.table tbody tr:nth-child(odd) {
+    background: rgb(241, 241, 241);
+}
+
+.table tbody tr:hover {
+    background: rgb(184, 184, 184);
+}
